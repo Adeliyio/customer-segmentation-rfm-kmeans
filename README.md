@@ -1,5 +1,3 @@
-# customer-segmentation-rfm-kmeans
-
 ## Business Case: Customer Segmentation for E-commerce Retailer
 ### Background:
 Our company is an e-commerce retailer specializing in various products across multiple categories. With a growing customer base and an increasingly competitive market, it's essential to understand our customers' behaviour and preferences to tailor our marketing strategies effectively. Customer segmentation is a powerful tool that can help us achieve this goal by dividing our customer base into distinct groups based on their similarities.
@@ -44,3 +42,15 @@ By implementing customer segmentation with K-means clustering, we anticipate ach
 
 ### Conclusion:
 Customer segmentation with K-means clustering offers our company an opportunity to gain deeper insights into our customer base, drive personalized marketing initiatives, and ultimately improve business outcomes. By understanding our customers better and catering to their specific needs, we can differentiate ourselves in the competitive e-commerce landscape and build long-lasting relationships with our valued customers.
+
+
+#### Appendix:
+#### Data Description
+InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+Description: Product (item) name. Nominal.
+Quantity: The quantities of each product (item) per transaction. Numeric.
+InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+Country: Country name. Nominal, the name of the country where each customer resides.
